@@ -1,5 +1,9 @@
+<script setup lang="ts">
+import SessionOne from '@/components/SessionOne/index.vue'
+</script>
+
 <template>
-  <div>
-    <h1>DevSolutions! Pra cima rapaziada.</h1>
-  </div>
+  <main>
+    <SessionOne />
+  </main>
 </template>
