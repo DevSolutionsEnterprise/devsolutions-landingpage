@@ -158,6 +158,8 @@ module.exports = {
       fuchsia: colors.fuchsia,
       pink: colors.pink,
       rose: colors.rose,
+      'dark-blue': '#359BCA',
+      'light-blue': '#52C8FF'
     }),
     columns: {
       auto: 'auto',
@@ -520,6 +522,7 @@ module.exports = {
       min: 'min-content',
       max: 'max-content',
       fit: 'fit-content',
+      section: '600px'
     }),
     hueRotate: {
       0: '0deg',
