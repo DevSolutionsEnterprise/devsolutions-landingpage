@@ -1,10 +1,14 @@
 <template>
-  <div class="flex-col bg bg-dark-blue h-section w-full p-8">
-    <h3 class=" font-semibold text-3xl mb-5 text-white ">Não perca a chance de aproveitar esta oportunidade incrível!</h3>
-    <div class="flex w-full h-full pt-8">
-      <img class=" self-end h-80" src="@/assets/img/rocket.svg" alt="rocket">
-      <p class=" font-normal text-2xl w-64 text-white">Registre-se e garanta uma avaliação gratuita da presença online de sua empresa.</p>
-      <form class=" bg-white p-7 w-96 ml-auto mr-24 mb-4 rounded-xl h-80">
+  <section class="flex pt-10 pb-6 px-4 mt-6 lg:pb-8 xl:pb-2 bg-primaryColor h-section">
+    <div class="flex w-full">
+      <div class=" mr-8">
+        <h3 class=" max-w-2xl text-white text-xl font-title font-bold leading-normal transition-all sm:text-2xl lg:text-4xl xl:text-5xl">Não perca a chance de aproveitar esta oportunidade incrível!</h3>
+        <div class="flex mt-8">
+          <img class="  h-96" src="@/assets/imgs/rocket.svg" alt="rocket">
+          <p class=" font-normal text-2xl  text-white text-right">Registre-se e garanta uma avaliação gratuita da presença online de sua empresa.</p> 
+        </div>
+      </div>
+      <form class="form bg-white p-7 w-96 rounded-xl h-96">
         <ul>
           <li class="flex justify-between mb-3">
             <label for="" class=" self-center">Nome</label>
@@ -22,11 +26,15 @@
             <input type="checkbox" name="Empresa" id="" class=" mr-2">
             <label for="">Privacidade e Políticas de Uso</label>
           </li>
-          <button class=" bg-light-blue px-3 rounded text-white w-full mt-8">Registrar</button>
+          <button
+            class="flex justify-center items-center w-full p-2 mt-6 bg-secondColor rounded text-white font-description font-semibold leading-normal shadow hover:brightness-105 transition-all"
+          >
+            Registrar
+          </button>
         </ul>
       </form>
     </div>
-  </div>
+  </section>
 </template>
 
 <style scoped>
@@ -41,5 +49,9 @@ input {
 }
 input:focus {
   outline: none;
+}
+
+.form {
+  width: 50%;
 }
 </style>
