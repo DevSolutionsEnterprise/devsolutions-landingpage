@@ -1,5 +1,5 @@
 <template>
-  <section class="flex pt-10 pb-6 px-4 mt-6 lg:pb-8 xl:pb-2">
+  <section id="aboutUsSection" class="flex pt-10 pb-6 px-4 mt-6 lg:pb-8 xl:pb-2">
     <div class="container m-auto relative">
       <div class="flex flex-col justify-center items-center transition-all">
         <h1
