@@ -8,15 +8,15 @@
         <ul class="flex">
           <li class="px-2 flex">
             <img class="h-5 px-1" src="@/assets/icons/home.svg"/>
-            <a  class=" text-white">Home</a>
+            <a  class=" text-white" href="#homeSection">Home</a>
           </li>
           <li class="px-2 flex ">
             <img class="h-5 px-1 fill-white" src="@/assets/icons/products.svg"/>
-            <a  class="text-white">Serviçoes</a>
+            <a  class="text-white" href="#serviceSection">Serviçoes</a>
           </li>
           <li class="px-2 flex">
             <img class="h-5 px-1" src="@/assets/icons/aboutUs.svg"/>
-            <a  class="text-white">Sobre nós</a>
+            <a  class="text-white" href="#aboutUsSection">Sobre nós</a>
           </li>
         </ul>
       </nav>

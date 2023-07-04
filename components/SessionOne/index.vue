@@ -1,5 +1,5 @@
 <template>
-  <section class="flex pt-10 pb-6 px-4 bg-primaryColor lg:pb-8 xl:pb-2 mt-16">
+  <section id="homeSection" class="flex pt-10 pb-6 px-4 bg-primaryColor lg:pb-8 xl:pb-2 mt-16">
     <div
       class="container m-auto flex flex-col justify-center items-center gap-4 transition-all md:flex-row"
     >
