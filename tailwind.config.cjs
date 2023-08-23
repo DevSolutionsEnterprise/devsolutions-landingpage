@@ -535,6 +535,7 @@ module.exports = {
       min: 'min-content',
       max: 'max-content',
       fit: 'fit-content',
+      section: '600px'
     }),
     hueRotate: {
       0: '0deg',
